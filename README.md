@@ -3,7 +3,7 @@
 
 This project contains simple working base for web application authentication with Microsoft Azure AD (Now called Microsoft Entra ID) in a react project.
 
-Register the app in the Azure portal. Go to Microsoft Entra ID, and App Registrations. For development you can use the following as the redirect-url.
+Register the app in the Azure portal. Go to Microsoft Entra ID, and App Registrations. For development you can use the following as the redirect-url, the auth/callback/azure-ad part comes from auth.js as the default for azure ad.
 ```
 http://localhost:3000/api/auth/callback/azure-ad 
 ```
