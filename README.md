@@ -3,9 +3,9 @@
 
 This project contains simple working base for Next.js web application authentication with Microsoft Azure AD (Now called Microsoft Entra ID) in a react project. This app is for the single tenant case (B2B) and not the B2C case.
 
-Register the app in the Azure portal. Go to Microsoft Entra ID, and App Registrations. For development you can use the following as the redirect-url, the auth/callback/azure-ad part comes from auth.js as the default for azure ad.
+Register the app in the Azure portal. Go to Microsoft Entra ID, and App Registrations. For development you can use the following as the redirect-url, the auth/callback/microsoft-entra-id part comes from auth.js as the default for Entra ID.
 ```
-http://localhost:3000/api/auth/callback/azure-ad 
+http://localhost:3000/api/auth/callback/microsoft-entra-id
 ```
 
 You will need the application id, Directory (tenant) id, and client secret. Place them in .env.local file the at the project root. This ID_ISSUER url format is for the single tenant case only. See auth.js documentation at https://authjs.dev/getting-started/providers/microsoft-entra-id
